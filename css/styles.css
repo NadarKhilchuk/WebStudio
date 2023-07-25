@@ -1,0 +1,36 @@
+:root {
+  --primary-color: blue;
+  --text-color: black;
+  --secondary-text-color: rgb(151, 147, 147);
+}
+h1,
+h2,
+h4,
+h5 {
+  color: var(--text-color);
+}
+p {
+  color: var(--secondary-text-color);
+}
+background-color: var(--primary-color);
+color: white;
+}
+button {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+ul,
+li {
+  list-style-type: none;
+}
+section {
+  margin-bottom: 20px;
+}
+img {
+  max-width: 100%;
+  background: #F5F4FA;
+}

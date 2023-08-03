@@ -4,3 +4,8 @@ main>section>div {
     footer {
         background: #2F303A;
     }
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --accent-color: #ffc107;
+}

@@ -11,7 +11,7 @@ h5 {
 }
 p {
   color: var(--secondary-text-color);
-background-color: var(--primary-color);
+background-color: var(--text-color);
 color: white;
 }
 

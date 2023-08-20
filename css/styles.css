@@ -1,11 +1,140 @@
-main>section>div {
-    background: #2F303A;
-    }
-    footer {
-        background: #2F303A;
-    }
 :root {
-  --primary-color: #007bff;
-  --secondary-color: #6c757d;
-  --accent-color: #ffc107;
+  --primary-color: blue;
+  --text-color: black;
+  --secondary-text-color: rgb(151, 147, 147);
+}
+h1,
+h2,
+h4,
+h5 {
+  color: var(--text-color);
+}
+p {
+  color: var(--secondary-text-color);
+background-color: var(--primary-color);
+color: white;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+ul,
+li {
+  list-style-type: none;
+}
+section {
+  margin-bottom: 20px;
+}
+img {
+  max-width: 100%;
+  background: #F5F4FA;
+}
+/*
+font-family: 'Roboto', sans-serif;
+*/
+
+
+
+header {
+   font-family: 'Raleway', sans-serif;
+}
+.web {
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+}
+header>div>a {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+}
+span {
+  color: #2196F3;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+b { 
+  color: #FFF;
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
+}
+main>section>div>h1 {
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 60px; /* 136.364% */
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+}
+ .block-center {
+  color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 187.5% */
+letter-spacing: 0.96px;
+}
+
+main>section>div {
+  background-color: #2F303A;
+  width: 1450px;
+height: 200px;
+flex-shrink: 0;
+}
+footer {
+  background-color: #2F303A;
+  color: white;
+}
+
+footer>ul>li>p {
+  color: white;
+  font-size: 14px;
+  height: 15px;
+  
+}
+span + .studio {
+  color: black;
+}
+
+a + .gmail {
+  color: rgba(255, 255, 255, 0.60);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.42px;
+}
+
+a + .telefon-link {
+  color: rgba(255, 255, 255, 0.60);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.42px;
+}
+header>div>nav>ul>li>a:hover {
+  color: blue;
+}
+header>div>nav>ul>li>a {
+  color: black;
 }

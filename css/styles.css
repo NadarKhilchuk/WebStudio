@@ -53,6 +53,7 @@ header>div>a {
   font-size: 26px;
 }
 span {
+  text-decoration: none;
   color: #2196F3;
   font-family: Raleway;
   font-size: 26px;

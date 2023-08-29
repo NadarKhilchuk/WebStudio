@@ -86,7 +86,10 @@ b {
   text-transform: uppercase;
   background-color: #2F303A;;
 }
-.hero-button {
+.hero-button:hover {
+  background-color: #2196F3;
+}
+.hero-button:hover {
   text-decoration: none;
   color: #FFF;
   text-align: center;
